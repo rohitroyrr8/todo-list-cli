@@ -16,3 +16,14 @@ cargo run -- remove 1
 - Simple CLI interface
 - Error handling (Handles invalid task IDs)
 - Task management with completion trackin
+
+
+## Install Cargo and Rust
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+rustc --version
+cargo --version
+export PATH="$HOME/.cargo/bin:$PATH"
+
+```
+
